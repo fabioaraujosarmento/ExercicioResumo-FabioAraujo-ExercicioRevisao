@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Restaurante {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        double peso = s.nextDouble();
+        double peso;
         double buffet = 3.39;
         double vlr_pg;
 
