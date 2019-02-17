@@ -13,7 +13,18 @@ public class Prefeitura {
         System.out.println("Informe o valor da parcela do emprestimo: ");
         prestacao = s.nextDouble();
 
-        if (prestacao > salario*30);
+        if (prestacao > salario*30)
+        {
+            System.out.println("Emprestimo não autorizado!");
+        }
+        else
+            {
+                System.out.println("Emprestimo autorizado!");
+            }
+
+
+
+
 
     }
 }
